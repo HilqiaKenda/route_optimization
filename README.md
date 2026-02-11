@@ -81,15 +81,19 @@ Return cheapest stations
 ### 📁 Project Structure
 
 core/
-├── service/
-│ ├── geocode.py
-│ ├── routing.py
+├── utils/
 │ ├── fuel_loader.py
-│ └── matcher.py
+│ ├── geocode.py
+│ ├── openroute.py
+│ └── optimizer.py
 ├── views.py
 ├── urls.py
 
 fuel_route/
 └── settings.py
-
-fuel-prices-for-be-assessment.csv
+├── .gitignore
+├── fuel-prices-for-be-assessment.csv
+├── LICENSE
+├── manage.py
+├── README.md
+└── requirements.txt
