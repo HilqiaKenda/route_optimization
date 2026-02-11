@@ -61,7 +61,7 @@ def bbox_from_coords(coords):
     ]
 
 
-def get_pois_along_route(coords, buffer_meters=200, category_filter=None):
+def get_pois_along_route(coords, buffer_meters=500, category_filter=None):
     """
     Fetch POIs along a route using OpenRouteService based on the provided coordinates,
     and filter by the specified category.
