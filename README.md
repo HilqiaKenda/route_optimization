@@ -58,7 +58,7 @@ This API calculates a driving route using OpenRouteService (ORS) and intelligent
 
 #### 1. Install Dependencies
 
-```json
+```bash
 pip install django djangorestframework pandas requests redis
 ```
 
